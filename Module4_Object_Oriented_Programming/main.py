@@ -123,4 +123,9 @@ def main():
     #Sample order at 9:30am (peak morning hour)
     order = ["Latte", "Bagel"]
 
-    #Display the receipt for the roder
+    #Display the receipt for the order
+    delivery.print_order("ITEC Computer Lab", order, 9, has_student_id=True);
+
+#Add the line of code to automatically call the main method
+if __name__ == "__main__":
+    main()
